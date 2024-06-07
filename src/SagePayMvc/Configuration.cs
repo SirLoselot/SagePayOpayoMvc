@@ -31,15 +31,15 @@ namespace SagePayMvc {
 	public class Configuration {
 		public static CultureInfo CultureForTransactionEncoding = new CultureInfo("en-gb");
 
-		public const string ProtocolVersion = "3.0";
+		public const string ProtocolVersion = "4.0";
 		public const string DefaultControllerName = "PaymentResponse";
 		public const string DefaultFailedAction = "Failed";
 		public const string DefaultSuccessAction = "Success";
 		public const decimal DefaultVatMultiplier = 1.2m;
 		public const string DefaultResponseAction = "Index";
 
-		public const string LiveUrl = "https://live.opayo.eu.elavon.com/gateway/service/vspdirect-register.vsp";
-		public const string TestUrl = "https://sandbox.opayo.eu.elavon.com/gateway/service/vspdirect-register.vsp";
+		public const string LiveUrl = "https://live.opayo.eu.elavon.com/gateway/service/vspserver-register.vsp";
+		public const string TestUrl = "https://sandbox.opayo.eu.elavon.com/gateway/service/vspserver-register.vsp";
 		public const string SimulatorUrl = "https://sandbox.opayo.eu.elavon.com/simulator/VSPServerGateway.asp?Service=VendorRegisterTx";
 
 		public const string LiveRefundUrl = "https://live.opayo.eu.elavon.com/gateway/service/refund.vsp";
